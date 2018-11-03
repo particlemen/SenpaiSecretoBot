@@ -4,13 +4,13 @@ import logging, math
 from random import randint, shuffle
 from telegram.ext import CommandHandler, MessageHandler, Filters
 
-bot = telegram.Bot(token="791339326:AAFIaGE7FVv7R3f1QzU6E5T6s7mGndXIY50")
+bot = telegram.Bot(token="")
 
 print("I'm Online")
 
 amigos = {}
 
-updater = Updater(token="791339326:AAFIaGE7FVv7R3f1QzU6E5T6s7mGndXIY50")
+updater = Updater(token="")
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
